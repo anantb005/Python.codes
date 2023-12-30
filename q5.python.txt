@@ -1,0 +1,18 @@
+list1 = []
+list2 = []
+
+print("Enter 5 names below: ")
+for i in range(5):
+    n = input()
+    list1.append(n)
+
+print("Enter 5 numbers below: ")
+for i in range(5):
+    m = input()
+    list2.append(m)
+
+print(list1)
+print(list2)
+
+dict = {list1[i]:list2[i] for i in range(0, len(list1))}
+print(dict)

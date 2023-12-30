@@ -1,0 +1,46 @@
+def add(a, b):
+    c = a + b
+    print(c)
+
+
+def sub(a, b):
+    c = a - b
+    print(c)
+
+
+def mul(a, b):
+    c = a * b
+    print(c)
+
+
+def div(a, b):
+    c = a / b
+    print(c)
+
+
+def mod(a, b):
+    c = a % b
+    print(c)
+
+
+def exp(a, b):
+    c = a ** b
+    print(c)
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+opp = int(input("Enter the operation number: "))
+
+if opp == 1:
+    add(x, y)
+elif opp == 2:
+    sub(x, y)
+elif opp == 3:
+    mul(x, y)
+elif opp == 4:
+    div(x, y)
+elif opp == 5:
+    mod(x, y)
+elif opp == 6:
+    exp(x, y)
+else:
+    print("Error")
